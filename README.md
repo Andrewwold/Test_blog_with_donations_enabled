@@ -1,8 +1,12 @@
 Speed test.
 
-first start, 5:32 - 5:48, Had to head home so short session today.
+first start, 5:32pm - 5:48pm, Had to head home so short session today.
 x Pages controller
 x post scaffold created,
+
+second run,  7:45am - ......
+
+
 
 
 goal, 
