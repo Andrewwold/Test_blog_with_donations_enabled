@@ -4,8 +4,9 @@ first start, 5:32pm - 5:48pm, Had to head home so short session today.
 x Pages controller
 x post scaffold created,
 
-second run,  7:45am - 8:40am
+second run,  7:45am - 8:40am sat nov 19th
 
+Sunday nov 20th 10:31 am - .......
 
 
 
