@@ -50,3 +50,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 4.2'
 gem 'administrate', '~> 0.3.0'
 gem 'bourbon', '~> 4.2', '>= 4.2.7'
+gem 'stripe'
+gem 'dotenv-rails', :groups => [:development, :test]
