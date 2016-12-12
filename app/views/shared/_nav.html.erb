@@ -1,0 +1,32 @@
+
+<ul class="nav nav-tabs">
+	<li class="active?"><%= link_to "Home", root_path %>
+	</li>
+	<li class="active?"><%= link_to "About", pages_about_path %>
+	</li>
+	<li class="active?"><%= link_to "Blogs", posts_path %>
+	</li>
+
+	<li class="active?">
+		<%= link_to "Donation", new_charge_path %>
+	</li>
+
+
+
+	<li class="dropdown pull-right">
+		<a href="#" data-toggle="dropdown" class="dropdown-toggle">Options<strong class="caret"></strong></a>
+		<ul class="dropdown-menu">
+			<li class="active?">
+				<%= link_to "Admin", admin_root_path %>
+			</li>
+			<li class="divider"></li>
+			<% if current_user %>
+			<%= link_to "Logout", destroy_user_session_path %>
+			<% else %>
+			<%= link_to "Register", new_user_registration_path %>
+			<li class="divider"></li>
+			<%= link_to "Sign In", new_user_session_path_path %>
+			<% end %>
+		</ul>
+	</li>
+</ul>
