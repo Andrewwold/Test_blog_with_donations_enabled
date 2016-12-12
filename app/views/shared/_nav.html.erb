@@ -20,12 +20,12 @@
 				<%= link_to "Admin", admin_root_path %>
 			</li>
 			<li class="divider"></li>
-			<% if current_user %>
-			<%= link_to "Logout", destroy_user_session_path %>
+			<% if current_user%>
+			<%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
 			<% else %>
 			<%= link_to "Register", new_user_registration_path %>
 			<li class="divider"></li>
-			<%= link_to "Sign In", new_user_session_path_path %>
+			<%= link_to "Sign In", new_user_session_path %>
 			<% end %>
 		</ul>
 	</li>

@@ -1,3 +1,5 @@
+
+<div class="container center">
 <%= form_tag charges_path do %>
   <article>
     <% if flash[:error].present? %>
@@ -6,7 +8,7 @@
       </div>
     <% end %>
     <label class="amount">
-      <span>Amount: <%= pretty_amount(@amount) %></span>
+      <span>Donation Amount: <%= pretty_amount(@amount) %></span>
     </label>
   </article>
 
@@ -18,4 +20,4 @@
           data-bitcoin="true"
           data-locale="auto"></script>
 <% end %>
-
+</div>
